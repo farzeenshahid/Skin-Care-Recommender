@@ -6,7 +6,7 @@ from bson import ObjectId
 app = Flask(__name__)
 
 # Initialize MongoDB client and database
-client = MongoClient("mongodb://localhost:27017")  # Replace with your MongoDB connection string
+client = MongoClient("mongodb+srv://skincare14:skincarerecommender@clusterskincare.6sapl.mongodb.net/")  # Replace with your MongoDB connection string
 db = client['recommendation_system_database']  # Replace with your DB name
 reviews_collection = db['reviews']  # Replace with your collection name
 
